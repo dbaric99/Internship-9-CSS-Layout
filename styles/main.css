@@ -1,3 +1,5 @@
+@import url("../assets/fonts/mainFont.css");
+
 header {
   height: 65px;
   width: 100%;
@@ -8,7 +10,6 @@ header {
 
 body {
   margin: 0px;
-  font-family: "open_sansregular", sans-serif;
   box-sizing: border-box;
 }
 
@@ -22,4 +23,26 @@ body {
 .remove-text-decoration {
   text-decoration: none;
   color: #282d5c;
+}
+
+h1, h2 {
+  margin-top: 0px;
+}
+
+.font--normal {
+  font-family: "open_sansregular",sans-serif;
+}
+.font--bold {
+  font-family: "open_sansbold",sans-serif;
+}
+.font--semi-bold {
+  font-family: "open_sansregular",sans-serif;
+  font-weight: 700;
+}
+.font--extra-bold {
+  font-family: "open_sansextrabold",sans-serif;
+}
+.font--light {
+  font-family: "open_sansregular",sans-serif;
+  font-weight: 100;
 }

@@ -20,17 +20,9 @@
     align-items: center;
 }
 
-.hero-header--breadcrumb-trail-current-nav-chevron-icon {
+.breadcrumb-trail--chevron-icon {
     font-size: 11px;
     padding: 0px 5px;
-}
-
-.hero-position-nav--bold {
-    font-weight: bold;
-}
-
-.hero-position-nav--light {
-    font-weight: lighter;
 }
 
 .hero-header--breadcrumb-trail-sign-in {
@@ -43,6 +35,56 @@
     height: 22px;
 }
 
-.hero-header-main {
+.hero-header--main {
+    display: flex;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
 
+.hero-header--main-text {
+    width: 52%;
+}
+
+.hero-header--main-image-wrapper {
+    background-color: #282d5c;
+    border-radius: 10px;
+    width: 100%;
+}
+
+.hero-header--product-title {
+    font-size: 26px;
+    color: #0c71b4;
+    margin-bottom: 5px;
+}
+
+.hero-header--main-title {
+    font-size: 37px;
+    margin-bottom: 20px;
+}
+
+.hero-header--application-stat {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+}
+
+.application-stat--item {
+    display: flex;
+    align-items: center;
+    color: #008fd0;
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.application-stat--item-checkmark {
+    height: 30px;
+    margin-right: 10px;
+}
+
+.hero-header--main-image {
+
+}
+
+#hero-header-image {
+    height: 200px;
 }

@@ -23,7 +23,7 @@
 
   <body>
     <header>
-      <div class="navigation-container side-margins">
+      <div class="navigation-container side-margins font--bold">
         <a
           class="navigation-container--logo"
           href="https://www.oceanfinance.co.uk/"
@@ -134,20 +134,18 @@
         <div class="hero-header--breadcrumb-trail side-margins">
           <div class="hero-header--breadcrumb-trail-item">
             <a
-              class="hero-position-nav--bold remove-text-decoration"
+              class="remove-text-decoration font--bold"
               href="https://www.oceanfinance.co.uk/"
               >Home</a
             >
             <i
-              class="fa fa-chevron-right hero-header--breadcrumb-trail-current-nav-chevron-icon"
+              class="fa fa-chevron-right breadcrumb-trail--chevron-icon"
               aria-hidden="true"
             ></i>
-            <span class="hero-position-nav--light">Credit cards</span>
+            <span class="font--light">Credit cards</span>
           </div>
 
-          <div
-            class="hero-header--breadcrumb-trail-item hero-position-nav--light"
-          >
+          <div class="hero-header--breadcrumb-trail-item font--light">
             <span>Already have an Ocean Credit Card account?</span>
             <a
               class="hero-header--breadcrumb-trail-sign-in"
@@ -164,26 +162,59 @@
 
         <div class="hero-header--main side-margins">
           <div class="hero-header--main-text">
-            <div>Ocean Credit Card</div>
-            <div>See if it's a YES before you apply</div>
-            <div>
-              <img src="./assets/images/icons/checkmark.png" alt="" />
-              <span>From <b>24.9% APR</b> (variable)</span>
-            </div>
-            <div>
-              <img src="./assets/images/icons/checkmark.png" alt="" />
-              <span>Checking <b>won't affect</b> your credit score</span>
-            </div>
-            <div>
-              <img src="./assets/images/icons/checkmark.png" alt="" />
-              <span>
-                You may be eligible for
-                <b>0% on balance transfers and purchases</b> for 6 months*
-              </span>
+            <h2 class="hero-header--product-title font--bold">
+              Ocean Credit Card
+            </h2>
+            <h1 class="hero-header--main-title font--bold">
+              See if it's a YES before you apply
+            </h1>
+
+            <div class="hero-header--application-stat font--light">
+              <div class="application-stat--item">
+                <img
+                  class="application-stat--item-checkmark"
+                  src="./assets/images/icons/checkmark.png"
+                  alt=""
+                />
+                <span>From <b class="font--bold">24.9% APR</b> (variable)</span>
+              </div>
+              <div class="application-stat--item">
+                <img
+                  class="application-stat--item-checkmark"
+                  src="./assets/images/icons/checkmark.png"
+                  alt=""
+                />
+                <span
+                  >Checking <b class="font--bold">won't affect</b> your credit
+                  score</span
+                >
+              </div>
+              <div class="application-stat--item">
+                <img
+                  class="application-stat--item-checkmark"
+                  src="./assets/images/icons/checkmark.png"
+                  alt=""
+                />
+                <span>
+                  You may be eligible for
+                  <b class="font--bold"
+                    >0% on balance transfers and purchases</b
+                  >
+                  for 6 months*
+                </span>
+              </div>
             </div>
           </div>
 
-          <div class="hero-header--main-image"></div>
+          <div class="hero-header--main-image">
+            <div class="hero-header--main-image-wrapper">
+              <img
+                id="hero-header-image"
+                src="./assets/images/credit-card.png"
+                alt=""
+              />
+            </div>
+          </div>
         </div>
 
         <div></div>
