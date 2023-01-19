@@ -5,7 +5,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./styles/main.css" />
-    <link rel="stylesheet" href="./styles/header.css" />
+    <link rel="stylesheet" href="./styles/mainHeader.css" />
+    <link rel="stylesheet" href="./styles/heroHeader.css" />
+    <script
+      src="https://kit.fontawesome.com/6e972345e2.js"
+      crossorigin="anonymous"
+    ></script>
     <title>
       Credit Cards UK | Apply for a Credit Card Online | Ocean Finance®
     </title>
@@ -15,64 +20,176 @@
       href="./assets/images/favicon-16x16.ico"
     />
   </head>
+
   <body>
     <header>
-      <div class="navigation-container">
+      <div class="navigation-container side-margins">
         <a
           class="navigation-container--logo"
           href="https://www.oceanfinance.co.uk/"
-          ><img src="./assets/images/logo.svg" alt="Main logo"
-        /></a>
+        >
+          <img
+            class="navigation-container--logo-image"
+            src="./assets/images/logo.svg"
+            alt="Main logo"
+          />
+        </a>
         <nav class="navigation-strip">
           <span class="navigation-strip--item">
             <a
+              class="navigation-strip--item-link remove-text-decoration"
               href="https://www.oceanfinance.co.uk/credit-cards/"
               target="_blank"
-              >Credit Cards</a
             >
-            <img src="./assets/images/icons/chevron-down.png" alt="" />
-          </span>
-
-          <span class="navigation-strip--item">
-            <a href="https://www.oceanfinance.co.uk/loans/" target="_blank"
-              >Loans</a
-            >
-            <img src="./assets/images/icons/chevron-down.png" alt="" />
-          </span>
-
-          <span class="navigation-strip--item">
-            <a
-              href="https://www.youtube.com/watch?v=T_rC7fB1-qM&ab_channel=TopherTok"
-              target="_blank"
-              >Credit Score</a
-            >
-            <img src="./assets/images/icons/chevron-down.png" alt="" />
-          </span>
-
-          <span class="navigation-strip--item">
-            <a href="https://www.oceanfinance.co.uk/mortgages/" target="_blank"
-              >Mortgages</a
-            >
-            <img src="./assets/images/icons/chevron-down.png" alt="" />
-          </span>
-
-          <span class="navigation-strip--item">
-            <a href="https://www.oceanfinance.co.uk/insurance/" target="_blank"
-              >Insurance</a
-            >
-            <img src="./assets/images/icons/chevron-down.png" alt="" />
+              Credit Cards
+            </a>
+            <img
+              class="navigation-strip--item-chevron"
+              src="./assets/images/icons/chevron-down.png"
+              alt=""
+            />
           </span>
 
           <span class="navigation-strip--item">
             <a
+              class="navigation-strip--item-link remove-text-decoration"
+              href="https://www.oceanfinance.co.uk/loans/"
+              target="_blank"
+            >
+              Loans
+            </a>
+            <img
+              class="navigation-strip--item-chevron"
+              src="./assets/images/icons/chevron-down.png"
+              alt=""
+            />
+          </span>
+
+          <span class="navigation-strip--item">
+            <a
+              class="navigation-strip--item-link remove-text-decoration"
               href="https://www.youtube.com/watch?v=T_rC7fB1-qM&ab_channel=TopherTok"
               target="_blank"
-              >More</a
             >
-            <img src="./assets/images/icons/chevron-down.png" alt="" />
+              Credit Score
+            </a>
+            <img
+              class="navigation-strip--item-chevron"
+              src="./assets/images/icons/chevron-down.png"
+              alt=""
+            />
+          </span>
+
+          <span class="navigation-strip--item">
+            <a
+              class="navigation-strip--item-link remove-text-decoration"
+              href="https://www.oceanfinance.co.uk/mortgages/"
+              target="_blank"
+            >
+              Mortgages
+            </a>
+            <img
+              class="navigation-strip--item-chevron"
+              class="navigation-strip--item-chevron"
+              src="./assets/images/icons/chevron-down.png"
+              alt=""
+            />
+          </span>
+
+          <span class="navigation-strip--item">
+            <a
+              class="navigation-strip--item-link remove-text-decoration"
+              href="https://www.oceanfinance.co.uk/insurance/"
+              target="_blank"
+            >
+              Insurance
+            </a>
+            <img
+              class="navigation-strip--item-chevron"
+              src="./assets/images/icons/chevron-down.png"
+              alt=""
+            />
+          </span>
+
+          <span class="navigation-strip--item">
+            <a
+              class="navigation-strip--item-link remove-text-decoration"
+              href="https://www.youtube.com/watch?v=T_rC7fB1-qM&ab_channel=TopherTok"
+              target="_blank"
+            >
+              More
+            </a>
+            <img
+              class="navigation-strip--item-chevron"
+              src="./assets/images/icons/chevron-down.png"
+              alt=""
+            />
           </span>
         </nav>
       </div>
     </header>
+
+    <main>
+      <section class="hero-header">
+        <div class="hero-header--breadcrumb-trail side-margins">
+          <div class="hero-header--breadcrumb-trail-item">
+            <a
+              class="hero-position-nav--bold remove-text-decoration"
+              href="https://www.oceanfinance.co.uk/"
+              >Home</a
+            >
+            <i
+              class="fa fa-chevron-right hero-header--breadcrumb-trail-current-nav-chevron-icon"
+              aria-hidden="true"
+            ></i>
+            <span class="hero-position-nav--light">Credit cards</span>
+          </div>
+
+          <div
+            class="hero-header--breadcrumb-trail-item hero-position-nav--light"
+          >
+            <span>Already have an Ocean Credit Card account?</span>
+            <a
+              class="hero-header--breadcrumb-trail-sign-in"
+              href="https://findtheinvisiblecow.com/"
+              >Sign in</a
+            >
+            <img
+              id="sign-in-icon"
+              src="./assets/images/icons/person.png"
+              alt=""
+            />
+          </div>
+        </div>
+
+        <div class="hero-header--main side-margins">
+          <div class="hero-header--main-text">
+            <div>Ocean Credit Card</div>
+            <div>See if it's a YES before you apply</div>
+            <div>
+              <img src="./assets/images/icons/checkmark.png" alt="" />
+              <span>From <b>24.9% APR</b> (variable)</span>
+            </div>
+            <div>
+              <img src="./assets/images/icons/checkmark.png" alt="" />
+              <span>Checking <b>won't affect</b> your credit score</span>
+            </div>
+            <div>
+              <img src="./assets/images/icons/checkmark.png" alt="" />
+              <span>
+                You may be eligible for
+                <b>0% on balance transfers and purchases</b> for 6 months*
+              </span>
+            </div>
+          </div>
+
+          <div class="hero-header--main-image"></div>
+        </div>
+
+        <div></div>
+
+        <div></div>
+      </section>
+    </main>
   </body>
 </html>

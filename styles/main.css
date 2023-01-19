@@ -9,4 +9,17 @@ header {
 body {
   margin: 0px;
   font-family: "open_sansregular", sans-serif;
+  box-sizing: border-box;
+}
+
+.side-margins {
+  margin-left: 120px;
+  margin-right: 120px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.remove-text-decoration {
+  text-decoration: none;
+  color: #282d5c;
 }

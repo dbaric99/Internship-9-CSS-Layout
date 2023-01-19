@@ -1,0 +1,48 @@
+.hero-header {
+    display: flex;
+    width: 100%;
+    background-color: #e5f4fb;
+    color: #282d5c;
+    flex-direction: column;
+}
+
+.hero-header--breadcrumb-trail {
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    justify-content: space-between;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.hero-header--breadcrumb-trail-item {
+    display: flex;
+    align-items: center;
+}
+
+.hero-header--breadcrumb-trail-current-nav-chevron-icon {
+    font-size: 11px;
+    padding: 0px 5px;
+}
+
+.hero-position-nav--bold {
+    font-weight: bold;
+}
+
+.hero-position-nav--light {
+    font-weight: lighter;
+}
+
+.hero-header--breadcrumb-trail-sign-in {
+    padding-left: 7px;
+    padding-right: 7px;
+    color: #282d5c;
+}
+
+#sign-in-icon {
+    height: 22px;
+}
+
+.hero-header-main {
+
+}
