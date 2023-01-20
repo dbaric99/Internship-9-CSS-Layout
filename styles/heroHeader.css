@@ -45,12 +45,6 @@
     width: 52%;
 }
 
-.hero-header--main-image-wrapper {
-    background-color: #282d5c;
-    border-radius: 10px;
-    width: 100%;
-}
-
 .hero-header--product-title {
     font-size: 26px;
     color: #0c71b4;
@@ -82,9 +76,25 @@
 }
 
 .hero-header--main-image {
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    margin-left: 140px;
+    background-color: #282d5c;
+    border-radius: 10px;
+}
 
+.hero-header--main-image-wrapper {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.hero-header--representative {
+    color: #fff;
 }
 
 #hero-header-image {
     height: 200px;
+    margin-top: 20px;
 }
