@@ -46,6 +46,10 @@
     width: 280px;
 }
 
+.guides-content--link-area:hover {
+    cursor: pointer;
+}
+
 .guides-content--image {
     width: 100%;
     border-radius: 15px;
