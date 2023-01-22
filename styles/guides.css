@@ -9,7 +9,7 @@
     align-items: center;
     background-color: #efefef;
     height: 80px;
-    padding-left: 246px;
+    padding-left: 250px;
     margin-bottom: 40px;
 }
 
@@ -20,24 +20,25 @@
 
 .navigation-guides--item:nth-child(2) {
     color: #29abe1;
+    position: relative;
 }
 
-.navigation-guides--item:nth-child(2):after {
-    display: block;
-    content: " ";
-    height: 5px;
-    width: 100%;
-    color: #29abe1;
-    border-radius: 100px;
+.navigation-guides--item:nth-child(2)::after {
+    content: "";
     position: absolute;
-    bottom: -25px;
+    width: 100px;
+    height : 5px;
+    background-color: #29abe1;
+    bottom: -29px;
+    left: -18px;
+    border-radius: 100px;
 }
 
 .guides--content {
     display: flex;
     flex-wrap: wrap;
-    margin-right: 246px;
-    margin-left: 246px;
+    margin-right: 250px;
+    margin-left: 250px;
 }
 
 .guides-content--wrapper {
